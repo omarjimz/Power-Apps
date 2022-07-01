@@ -1,0 +1,67 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "DDLProjectActivity": 8,
+    "DDLTitle": 5,
+    "Dropdown3": 12,
+    "Label1": 6,
+    "Label2": 9,
+    "Label3": 11,
+    "Label4": 4,
+    "Label4_1": 7,
+    "Label4_2": 10,
+    "Screen1": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/01/2022 19:09:36",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "819e3d1c-a802-4650-abc9-1a0030b7f406": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/4b36ca1b4a0e4bcdaa7ff5ba81531db1\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "ComboBoxSample": 2,
+    "DropDownSample": 1,
+    "Projects list": 0
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "dropdown": 1,
+    "label": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "DDLProjectActivity": 4,
+    "DDLTitle": 1,
+    "Dropdown3": 8,
+    "Label1": 2,
+    "Label2": 5,
+    "Label3": 7,
+    "Label4": 0,
+    "Label4_1": 3,
+    "Label4_2": 6,
+    "Screen1": 0
+  },
+  "ResourcesJsonIndices": {},
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0898986,
+    "ControlCount": {
+      "dropdown": 3,
+      "label": 6,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.926335,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}

@@ -1,0 +1,73 @@
+Screen1 As screen:
+
+    DDLTitle As dropdown:
+        Items: =Distinct('Projects list',Title)
+        Width: =250
+        X: =204
+        Y: =196
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Right
+        Text: |-
+            ="Title:"
+        X: =51
+        Y: =206
+        ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Right
+        Text: |-
+            ="Project activity:"
+        X: =51
+        Y: =403
+        ZIndex: =3
+
+    Label3 As label:
+        Align: =Align.Right
+        Height: =47
+        Text: |-
+            ="Project Activity ID:"
+        Width: =177
+        X: =24
+        Y: =599
+        ZIndex: =4
+
+    DDLProjectActivity As dropdown:
+        Items: =Distinct(Filter('Projects list',Title = DDLTitle.Selected.Result),ProjectActivity)
+        Width: =250
+        X: =204
+        Y: =396
+        ZIndex: =5
+
+    Dropdown3 As dropdown:
+        Items: =Distinct(Filter('Projects list',ProjectActivity = DDLProjectActivity.Selected.Result),ProjectActivityID)
+        Width: =250
+        X: =204
+        Y: =602
+        ZIndex: =6
+
+    Label4 As label:
+        Height: =52
+        Text: ="Distinct('Projects list',Title)"
+        Width: =624
+        X: =535
+        Y: =184
+        ZIndex: =7
+
+    Label4_1 As label:
+        Height: =52
+        Text: ="Distinct(Filter('Projects list',Title = DDLTitle.Selected.Result),ProjectActivity)"
+        Width: =655
+        X: =535
+        Y: =384
+        ZIndex: =8
+
+    Label4_2 As label:
+        Height: =52
+        Text: ="Distinct(Filter('Projects list',ProjectActivity = DDLProjectActivity.Selected.Result),ProjectActivityID)"
+        Width: =786
+        X: =535
+        Y: =590
+        ZIndex: =9
+
